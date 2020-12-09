@@ -1,3 +1,3 @@
 function hideWhenClicked() {
-  element.hide 
+  this.hide 
 }
