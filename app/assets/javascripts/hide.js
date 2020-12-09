@@ -1,3 +1,6 @@
 function hideWhenClicked(event) {
-  this.hide 
+  var $target = $(event.target);
+  $target.hide(); 
 }
+
+$('#hide_this').click(hideWhenClicked);
